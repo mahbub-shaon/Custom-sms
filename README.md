@@ -72,7 +72,7 @@ customsms/
 ### Windows (PowerShell)
 
 ```powershell
-cd C:\Users\Rayhan\Desktop\customsms
+cd C:\Users\system\Desktop\customsms
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -142,5 +142,3 @@ Copy-Item bot_database.db "backups\bot_database.db.manual-$(Get-Date -Format yyy
 - সব admin command/button/callback-এ সার্ভার-সাইড `require_admin()` চেক আছে।
 - `requests` সর্বদা `verify=True` (TLS verification বন্ধ করার কোনো option নেই)।
 - User-facing error গুলো generic; বিস্তারিত server log-এ যায়।
-- যদি পুরনো `customsms.tar.gz` কোথাও শেয়ার হয়ে থাকে, BotFather-এ টোকেন
-  **revoke** করে নতুন টোকেন `config.json`-এ বসান।
