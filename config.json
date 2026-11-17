@@ -1,0 +1,31 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN_FROM_BOTFATHER",
+  "admin": {
+    "telegram_id": 123456789,
+    "name": "Admin Name",
+    "contact_username": "@YourUsername",
+    "contact_url": "https://t.me/YourUsername"
+  },
+  "developer": {
+    "name": "Developer Name",
+    "username": "@DeveloperUsername",
+    "url": "https://t.me/DeveloperUsername",
+    "note": "Official support contact."
+  },
+  "force_join": {
+    "enabled": true,
+    "channels": [
+      { "username": "@channel_one", "label": "Channel One", "url": "https://t.me/channel_one" },
+      { "username": "@channel_two", "label": "Channel Two", "url": "https://t.me/channel_two" }
+    ]
+  },
+  "merchant_api": {
+    "url": "https://api-merchant.carrybee.com/api/v2/merchant/register",
+    "timeout": 30
+  },
+  "pricing": [
+    { "points": 10, "price": 30 },
+    { "points": 30, "price": 60 },
+    { "points": 50, "price": 100 }
+  ]
+}
